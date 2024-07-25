@@ -29,11 +29,11 @@ predefined_answers = {
     "bye": "Goodbye! Have a great day!"
 }
 
-endpoint = os.getenv("ENDPOINT_URL", "https://gen-ai-workshop.openai.azure.com/")
+endpoint = os.getenv("ENDPOINT_URL", "-----------")
 deployment = os.getenv("DEPLOYMENT_NAME", "gpt-35-turbo")
 client = AzureOpenAI(
     azure_endpoint=endpoint,
-    api_key='8e39bb16321a40708a8f5656a9adbae8',
+    api_key='********',
     api_version="2024-05-01-preview",
 )
   
